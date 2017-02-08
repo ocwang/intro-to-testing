@@ -46,4 +46,10 @@ class ProfileViewModel {
         
         return (hours: hours, minutes: minutes, seconds: seconds)
     }
+    
+    // TODO: - Network request to refresh user not implemented yet!
+    
+    func refreshUser(completionHandler: (Bool) -> Void) {
+        completionHandler(true)
+    }
 }
